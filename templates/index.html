@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b12">
+  <title>College Enquiry Chatbot | {{ college_name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="{{ college_name }} home">
+        <span class="brand-mark" aria-hidden="true">EC</span>
+        <span class="brand-name">{{ college_name }}</span>
+      </a>
+      <span class="assistant-label"><span class="status-dot" aria-hidden="true"></span> FAQ Assistant</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">STUDENT SERVICES <span aria-hidden="true">/</span> INFORMATION DESK</p>
+        <h1 id="page-title">College Enquiry<br><span>Chatbot</span></h1>
+        <p class="intro-copy">A quick way to find answers to common questions about college life.</p>
+      </section>
+
+      <aside class="demo-notice" aria-label="Demo data notice">
+        <span class="notice-mark" aria-hidden="true">!</span>
+        <p>{{ demo_notice }}</p>
+      </aside>
+
+      <section class="chat-panel" aria-label="College enquiry conversation">
+        <div class="chat-topline">
+          <div>
+            <h2>Ask the college desk</h2>
+            <p>Answers are retrieved from the configured FAQ information.</p>
+          </div>
+          <span class="online-state"><span class="status-dot" aria-hidden="true"></span> Ready</span>
+        </div>
+
+        <div id="chat-log" class="chat-log" role="log" aria-live="polite" aria-relevant="additions text" aria-label="Chat messages"></div>
+
+        <section class="suggestions" aria-labelledby="suggestion-title">
+          <h3 id="suggestion-title">SUGGESTED QUESTIONS</h3>
+          <div class="suggestion-list">
+            <button type="button" class="suggestion">How do I apply for admission?</button>
+            <button type="button" class="suggestion">What courses are available?</button>
+            <button type="button" class="suggestion">What is the MCA fee?</button>
+            <button type="button" class="suggestion">What are the college timings?</button>
+            <button type="button" class="suggestion">Are hostel facilities available?</button>
+            <button type="button" class="suggestion">Does the college provide placement support?</button>
+          </div>
+        </section>
+
+        <form id="message-form" class="composer">
+          <label class="visually-hidden" for="message-input">Your college enquiry</label>
+          <div class="input-wrap">
+            <textarea id="message-input" name="message" rows="1" maxlength="500"
+              placeholder="Ask about admissions, fees, courses, or timings…"
+              aria-describedby="input-hint character-count"></textarea>
+            <div class="input-meta">
+              <span id="input-hint">Enter to send <span aria-hidden="true">·</span> Shift + Enter for a new line</span>
+              <span id="character-count" aria-live="off">0 / 500</span>
+            </div>
+          </div>
+          <button id="send-button" class="send-button" type="submit" aria-label="Send message" title="Send message">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12 20 4l-5 16-3-7-8-1Zm8 1 8-9"/></svg>
+          </button>
+        </form>
+        <div class="chat-actions">
+          <span id="request-status" class="request-status" role="status" aria-live="polite"></span>
+          <button id="clear-button" class="clear-button" type="button">Clear chat</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Built with Python, Flask, and NLP</span>
+      <span>Confirm official information with the college office.</span>
+    </footer>
+  </div>
+</body>
+</html>

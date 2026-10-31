@@ -1,0 +1,288 @@
+{
+  "college": {
+    "name": "Example College of Technology",
+    "is_demo": true,
+    "notice": "Demo application: College information shown here is fictional. Replace it with verified information before real use.",
+    "contact_email": "admissions@example.com",
+    "contact_phone": "Not configured",
+    "address": "Sample campus address"
+  },
+  "faqs": [
+    {
+      "id": "how_to_apply",
+      "category": "Admissions",
+      "questions": ["How do I apply for admission?", "Where can I submit an application?", "How can I apply to the college?"],
+      "answer": "For this demonstration, students can submit an application and attend document verification. Replace this answer with the college's verified admission procedure."
+    },
+    {
+      "id": "admission_process",
+      "category": "Admissions",
+      "questions": ["What is the admission process?", "What are the steps for admission?", "How does college admission work?"],
+      "answer": "For this demonstration, the process includes an application and document verification. Contact the college office for the verified process and current dates."
+    },
+    {
+      "id": "eligibility",
+      "category": "Admissions",
+      "questions": ["What are the eligibility requirements?", "Who is eligible to apply?", "What qualifications are needed for admission?"],
+      "answer": "Eligibility rules are not configured in this demo. Please contact the college office for verified course-specific requirements."
+    },
+    {
+      "id": "application_availability",
+      "category": "Admissions",
+      "questions": ["Are applications open?", "When will applications be available?", "Can I get the application form now?"],
+      "answer": "Current application availability is not configured. Please contact the college office for the latest information."
+    },
+    {
+      "id": "application_deadline",
+      "category": "Admissions",
+      "questions": ["What is the application deadline?", "When is the last date to apply?", "What is the admission closing date?"],
+      "answer": "Application dates are not configured in this demo. Please contact the college office to confirm the current deadline."
+    },
+    {
+      "id": "entrance_examinations",
+      "category": "Admissions",
+      "questions": ["Is an entrance exam required?", "Which entrance examinations are accepted?", "Do I need to take an admission test?"],
+      "answer": "Entrance examination requirements are not configured. Please contact the college office for verified course-specific details."
+    },
+    {
+      "id": "required_documents",
+      "category": "Admissions",
+      "questions": ["Which documents are required for admission?", "What papers should I bring for verification?", "What documents do I need to apply?"],
+      "answer": "Document requirements are not configured. Please contact the college office for the current verified checklist."
+    },
+    {
+      "id": "admission_status",
+      "category": "Admissions",
+      "questions": ["How can I check my admission status?", "Has my application been approved?", "Where can I ask about my application status?"],
+      "answer": "This demo cannot access live admission records. Please contact the college office directly to check your application status."
+    },
+    {
+      "id": "transfer_admissions",
+      "category": "Admissions",
+      "questions": ["Can I transfer from another college?", "Does the college accept transfer students?", "How do transfer admissions work?"],
+      "answer": "Transfer admission rules are not configured. Please contact the college office to discuss eligibility and available places."
+    },
+    {
+      "id": "undergraduate_courses",
+      "category": "Courses",
+      "questions": ["What undergraduate courses are available?", "Which bachelor's programs does the college offer?", "What degree courses can I study after school?"],
+      "answer": "Undergraduate course information has not been verified for this demo. Please contact the college office for the current course list."
+    },
+    {
+      "id": "postgraduate_courses",
+      "category": "Courses",
+      "questions": ["What postgraduate courses are available?", "Which master's programs are offered?", "What can I study after my bachelor's degree?"],
+      "answer": "Postgraduate course information has not been verified for this demo. Please contact the college office for the current course list."
+    },
+    {
+      "id": "mca_availability",
+      "category": "Courses",
+      "questions": ["Is MCA available?", "Does the college offer an MCA course?", "Can I study MCA at this college?"],
+      "answer": "MCA availability is not verified in this demo. Please contact the college office for the current program list."
+    },
+    {
+      "id": "mba_availability",
+      "category": "Courses",
+      "questions": ["Is MBA available?", "Does the college offer an MBA course?", "Can I study MBA at this college?"],
+      "answer": "MBA availability is not verified in this demo. Please contact the college office for the current program list."
+    },
+    {
+      "id": "course_duration",
+      "category": "Courses",
+      "questions": ["How long are the courses?", "What is the duration of a degree program?", "How many years does a course take?"],
+      "answer": "Course duration depends on the program and is not configured here. Please contact the college office for verified details."
+    },
+    {
+      "id": "study_mode",
+      "category": "Courses",
+      "questions": ["Are courses online or on campus?", "What study modes are available?", "Can I study by distance learning?"],
+      "answer": "Available study modes are not configured. Please contact the college office for current program details."
+    },
+    {
+      "id": "curriculum_information",
+      "category": "Courses",
+      "questions": ["Where can I find the course curriculum?", "Can I see the syllabus?", "What subjects are included in a course?"],
+      "answer": "Curriculum and syllabus details are not configured. Please contact the college office or the relevant department for verified information."
+    },
+    {
+      "id": "tuition_fees",
+      "category": "Fees",
+      "questions": ["What is the tuition fee?", "How much are the college tuition fees?", "Tell me about the general course fees."],
+      "answer": "Tuition fees are not configured in this demo. Please contact the college office for the current fee schedule."
+    },
+    {
+      "id": "mca_fees",
+      "category": "Fees",
+      "questions": ["What is the MCA fee?", "How much does MCA cost?", "Tell me the tuition fees for MCA."],
+      "answer": "MCA fees are not configured in this demo. Please contact the college office for the current verified fee schedule."
+    },
+    {
+      "id": "mba_fees",
+      "category": "Fees",
+      "questions": ["What is the MBA fee?", "How much does MBA cost?", "Tell me the tuition fees for MBA."],
+      "answer": "MBA fees are not configured in this demo. Please contact the college office for the current verified fee schedule."
+    },
+    {
+      "id": "payment_methods",
+      "category": "Fees",
+      "questions": ["How can I pay my fees?", "Which fee payment methods are accepted?", "Can I pay the college fees online?"],
+      "answer": "Accepted payment methods are not configured. Please contact the college office before making a payment."
+    },
+    {
+      "id": "instalment_options",
+      "category": "Fees",
+      "questions": ["Can I pay fees in instalments?", "Are payment plans available?", "Can tuition fees be paid monthly?"],
+      "answer": "Instalment options are not configured. Please contact the college office to confirm available arrangements."
+    },
+    {
+      "id": "additional_charges",
+      "category": "Fees",
+      "questions": ["Are there additional college charges?", "What extra fees should I expect?", "Are exam or laboratory fees separate?"],
+      "answer": "Additional charges are not configured. Please contact the college office for a complete, current fee breakdown."
+    },
+    {
+      "id": "refund_enquiries",
+      "category": "Fees",
+      "questions": ["What is the fee refund policy?", "Can I get a refund if I withdraw?", "How do I ask for a fee refund?"],
+      "answer": "Refund rules are not configured. Please contact the college office for the current written refund policy."
+    },
+    {
+      "id": "college_working_hours",
+      "category": "Timings",
+      "questions": ["What are the college working hours?", "When does the college open and close?", "What time is the campus open?"],
+      "answer": "College working hours are not configured. Please contact the college office to confirm today's hours."
+    },
+    {
+      "id": "admission_office_hours",
+      "category": "Timings",
+      "questions": ["What are the admission office hours?", "When can I call the admissions office?", "What time does the admission office open?"],
+      "answer": "Admission office hours are not configured. Please contact the college office to confirm its current schedule."
+    },
+    {
+      "id": "working_days",
+      "category": "Timings",
+      "questions": ["Which days is the college open?", "What are the college working days?", "Is the college open on Saturdays?"],
+      "answer": "Working days are not configured. Please contact the college office to confirm the weekly schedule."
+    },
+    {
+      "id": "visiting_hours",
+      "category": "Timings",
+      "questions": ["When can I visit the campus?", "What are the campus visiting hours?", "Can I visit the college today?"],
+      "answer": "Campus visiting hours are not configured. Please contact the college office before planning a visit."
+    },
+    {
+      "id": "scholarship_availability",
+      "category": "Scholarships",
+      "questions": ["Are scholarships available?", "Does the college offer scholarships?", "Can students get financial aid?"],
+      "answer": "Scholarship availability is not verified in this demo. Please contact the college office for current eligibility and funding information."
+    },
+    {
+      "id": "scholarship_application",
+      "category": "Scholarships",
+      "questions": ["How do I apply for a scholarship?", "What is the scholarship application process?", "Where can I submit a financial aid application?"],
+      "answer": "Scholarship application steps are not configured. Please contact the college office for the verified process and dates."
+    },
+    {
+      "id": "scholarship_documents",
+      "category": "Scholarships",
+      "questions": ["What documents are needed for a scholarship?", "Which papers should I submit for financial aid?", "What is the scholarship document checklist?"],
+      "answer": "Scholarship document requirements are not configured. Please contact the college office for the current checklist."
+    },
+    {
+      "id": "hostel_availability",
+      "category": "Facilities",
+      "questions": ["Is a hostel available?", "Does the college have student accommodation?", "Can I stay in a college hostel?"],
+      "answer": "Hostel availability is not verified in this demo. Please contact the college office for current accommodation details."
+    },
+    {
+      "id": "hostel_facilities_fees",
+      "category": "Facilities",
+      "questions": ["What hostel facilities and fees are available?", "How much does the hostel cost?", "What amenities are included in the hostel?"],
+      "answer": "Hostel facilities and fees are not configured. Please contact the college office for verified availability, amenities, and charges."
+    },
+    {
+      "id": "transport_availability",
+      "category": "Facilities",
+      "questions": ["Is college transport available?", "Does the college provide buses?", "Can students use campus transportation?"],
+      "answer": "Transport availability is not verified in this demo. Please contact the college office for current service details."
+    },
+    {
+      "id": "bus_routes",
+      "category": "Facilities",
+      "questions": ["What are the college bus routes?", "Where do the buses pick up students?", "Can I see the campus bus schedule?"],
+      "answer": "Bus routes and schedules are not configured. Please contact the college office for current route information."
+    },
+    {
+      "id": "library",
+      "category": "Facilities",
+      "questions": ["Does the college have a library?", "What library facilities are available?", "Can students borrow books from the library?"],
+      "answer": "Library details are not configured. Please contact the college office for verified information about collections and access."
+    },
+    {
+      "id": "computer_laboratories",
+      "category": "Facilities",
+      "questions": ["Are computer labs available?", "Does the college have computer laboratories?", "What computing facilities can students use?"],
+      "answer": "Computer laboratory details are not configured. Please contact the college office for current facilities and access information."
+    },
+    {
+      "id": "wifi",
+      "category": "Facilities",
+      "questions": ["Is Wi-Fi available on campus?", "Can students use college internet?", "Does the campus provide wireless internet?"],
+      "answer": "Campus Wi-Fi details are not configured. Please contact the college office for current availability and access rules."
+    },
+    {
+      "id": "canteen",
+      "category": "Facilities",
+      "questions": ["Is there a canteen on campus?", "What food facilities does the college have?", "Can students buy meals at the college?"],
+      "answer": "Canteen information is not configured. Please contact the college office for current campus dining details."
+    },
+    {
+      "id": "sports_facilities",
+      "category": "Facilities",
+      "questions": ["What sports facilities are available?", "Does the college have sports grounds?", "Can students participate in sports?"],
+      "answer": "Sports facility details are not configured. Please contact the college office for verified information about available activities and spaces."
+    },
+    {
+      "id": "accessibility_assistance",
+      "category": "Facilities",
+      "questions": ["Is the campus accessible?", "What accessibility assistance is available?", "Can I ask for disability support at college?"],
+      "answer": "Accessibility arrangements are not configured. Please contact the college office to discuss specific access requirements and available assistance."
+    },
+    {
+      "id": "placement_support",
+      "category": "Placements",
+      "questions": ["Does the college provide placement support?", "Is there a placement cell?", "Can students get help finding a job?"],
+      "answer": "Placement support details are not verified in this demo. Please contact the college office for current services. No placement outcomes or guarantees are provided here."
+    },
+    {
+      "id": "placement_training",
+      "category": "Placements",
+      "questions": ["What placement training is provided?", "Are interview skills taught?", "Does the college offer career preparation?"],
+      "answer": "Placement training activities are not configured. Please contact the college office for current career preparation details."
+    },
+    {
+      "id": "internship_guidance",
+      "category": "Placements",
+      "questions": ["Does the college help with internships?", "Is internship guidance available?", "Can students get support finding an internship?"],
+      "answer": "Internship guidance information is not configured. Please contact the college office or relevant department for current support details."
+    },
+    {
+      "id": "college_location",
+      "category": "Contact",
+      "questions": ["Where is the college located?", "What is the campus address?", "How can I find the college?"],
+      "answer": "The demo address is Sample campus address. Replace it with the verified address before real use, and confirm directions with the college office."
+    },
+    {
+      "id": "admission_contact",
+      "category": "Contact",
+      "questions": ["How can I contact admissions?", "What is the admission office email?", "Who should I call about admission?"],
+      "answer": "Demo contact email: admissions@example.com. The phone number is not configured. Replace these with verified contact details before real use."
+    },
+    {
+      "id": "campus_visits",
+      "category": "Contact",
+      "questions": ["Can I arrange a campus visit?", "How do I book a college tour?", "May I visit the campus before applying?"],
+      "answer": "Campus visit arrangements are not configured. Please contact the college office to ask about availability and schedule a visit."
+    }
+  ]
+}
